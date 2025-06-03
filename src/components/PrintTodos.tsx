@@ -19,5 +19,6 @@ export const PrintTodo = ({ printedTodo, toggleCompleted, removeTodo }: todoProp
             </li>
         ))}
     </ul>
+    <div className="bg"></div>
     </>
 }

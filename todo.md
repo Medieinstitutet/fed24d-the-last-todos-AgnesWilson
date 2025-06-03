@@ -11,7 +11,7 @@
 - ~~Implementera klickhändelse för att hantera borttagandet av en todo.~~
 
 ### Ej klart
-- Todo markeras som klar på skärmen och markeras som klar i javascript-listan.
+- Todo markeras som klar på skärmen och markeras som klar i javascript-listan. <-- DUBBELKOLLLA VAD SOM MENAS
 
 
 ## Betyg VG
