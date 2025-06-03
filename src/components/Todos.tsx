@@ -4,14 +4,8 @@ import type { Todo } from "../models/todoType";
 import { InputNewTask } from "./InputNewTask";
 import { PrintTodo } from "./PrintTodos";
 
-const initialTodos: Todo[] = [
-  { id: 1, task: "Köp mjölk", isCompleted: false },
-  { id: 2, task: "Skriv klart rapporten", isCompleted: true },
-  { id: 3, task: "Städa lägenheten", isCompleted: false },
-];
-
 export const Todos = () => {
-  const [todos, setTodos] = useState<Todo[]>(initialTodos);
+  const [todos, setTodos] = useState<Todo[]>(JSON.parse(localStorage.getItem("todos") || "[]"));
 
   const addTodo = (newTodo: Todo) => {
     setTodos([...todos, { ...newTodo, id: Date.now()}]);
@@ -26,6 +20,8 @@ export const Todos = () => {
   });
   setTodos(completedStatus);
 };
+
+  localStorage.setItem("todos", JSON.stringify(todos));
 
   return <>
   < InputNewTask addTodo={addTodo} />
