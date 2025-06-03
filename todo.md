@@ -9,9 +9,7 @@
 - ~~Ni behöver använda er av state med en lista med objekt.~~
 - ~~Ni behöver använda localStorage så att listan inte börjar om från början varje gång sidan används.~~
 - ~~Implementera klickhändelse för att hantera borttagandet av en todo.~~
-
-### Ej klart
-- Todo markeras som klar på skärmen och markeras som klar i javascript-listan. <-- DUBBELKOLLLA VAD SOM MENAS
+- ~~Todo markeras som klar på skärmen och markeras som klar i javascript-listan. <-- DUBBELKOLLLA VAD SOM MENAS~~
 
 
 ## Betyg VG
@@ -28,6 +26,4 @@
 
 
 # Planering
-- Kolla på design och att eventuellt kunna presentera listan på olika sätt? Typ endast visa klara todos, endast visa todos som ej är klara.... 
-- Lägg till hårdkodad lista med todos 
-- Lägga till filtrering 
+- Lägga till toggle-filtrering (ex togglar mellan a-ö och ö-a)
