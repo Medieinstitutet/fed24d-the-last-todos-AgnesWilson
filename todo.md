@@ -8,9 +8,9 @@
 - ~~Ni behöver använda er av en komponent.~~
 - ~~Ni behöver använda er av state med en lista med objekt.~~
 - ~~Ni behöver använda localStorage så att listan inte börjar om från början varje gång sidan används.~~
+- ~~Implementera klickhändelse för att hantera borttagandet av en todo.~~
 
 ### Ej klart
-- Implementera klickhändelse för att hantera borttagandet av en todo.
 - Todo markeras som klar på skärmen och markeras som klar i javascript-listan.
 
 
