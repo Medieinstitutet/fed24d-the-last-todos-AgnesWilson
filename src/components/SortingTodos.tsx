@@ -1,13 +1,16 @@
 import { Button } from "./Button"
 
-export const SortingTodos = () => {
+type Props = {
+  setFilter: (filter: "All" | "Completed" | "NotCompleted") => void;
+};
 
+export const SortingTodos = ({setFilter}: Props) => {
     return <>
-    <div className="flex justify-center space-x-5">
+        <div className="flex justify-center space-x-5">
 
-        <Button>Alla</Button>
-        <Button>Färdiga</Button>
-        <Button>Ofärdiga</Button>
-    </div>
+            <Button onClick={() => setFilter("All")}>Alla</Button>
+            <Button onClick={() => setFilter("Completed")}>Färdiga</Button>
+            <Button onClick={() => setFilter("NotCompleted")}>Ofärdiga</Button>
+        </div>
     </>
 }
