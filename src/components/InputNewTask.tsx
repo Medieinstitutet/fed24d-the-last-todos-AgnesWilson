@@ -1,5 +1,7 @@
 import { useState, type ChangeEvent, type FormEvent } from "react"
+
 import type { Todo } from "../models/todoType";
+import { Button } from "./Button";
 
 
 type AddTodoProps = {
@@ -26,7 +28,7 @@ export const InputNewTask = ({addTodo}: AddTodoProps) => {
     return <>
         <form className="grid grid-cols-[3fr_1fr] items-center gap-2 py-10" onSubmit={handleClick}>
         <input className="border-2 rounded-lg px-3 py-1" type="text" placeholder="Ex. Vattna blommorna" value={todo.task} onChange={handleChange}></input>
-        <button className="bg-[#dc5c2a] border-2 rounded-md border-[#ffe762] [font-family:'Caveat', ] font-extrabold text-[#ffe762] text-2xl w-30">Lägg till</button>
+        <Button>Lägg till</Button>
         </form>
     </>
 }
