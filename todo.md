@@ -20,10 +20,7 @@
 - ~~Ni måste använda Lifting State Up.~~
 - ~~Implementera ett valfritt grafiskt ramverk, t.ex. tailwind eller material ui.~~
 - ~~Kunna visa även klara händelser och klicka tillbaka den så att de blir oklara igen.~~
+- ~~Kunna sortera ordningen på dina todos.~~
+
 
 ### Ej klart
-- Kunna sortera ordningen på dina todos.
-
-
-# Planering
-- Lägga till toggle-filtrering (ex togglar mellan a-ö och ö-a)

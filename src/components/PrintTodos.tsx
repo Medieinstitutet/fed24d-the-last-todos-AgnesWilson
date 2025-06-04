@@ -20,7 +20,7 @@ export const PrintTodo = ({ printedTodo, toggleCompleted, removeTodo }: todoProp
                         }>{todo.task}
                     </h3>
                     <input type="checkbox" checked={todo.isCompleted} onChange={() => toggleCompleted(todo.id)}/>
-                    <button onClick={() => removeTodo(todo.id)}><span className="material-symbols-outlined text-black">delete</span></button>
+                    <button onClick={() => removeTodo(todo.id)}><span aria-label="Ta bort todo" className="material-symbols-outlined text-black">delete</span></button>
                 </li>
             ))}
         </ul>
