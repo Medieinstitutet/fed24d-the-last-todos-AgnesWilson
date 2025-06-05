@@ -3,37 +3,7 @@
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #dc5c2a;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-button {
-  background-color: none;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
-button:hover {
-  border-color: black;
-  border-width: 2px;
-  border-radius: 8px;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 input[type="checkbox"] {

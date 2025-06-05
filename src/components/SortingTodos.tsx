@@ -13,7 +13,12 @@ export const SortingTodos = ({setFilter, toggleSortOrder}: Props) => {
             <Button onClick={() => setFilter("Completed")}>Färdiga</Button>
             <Button onClick={() => setFilter("NotCompleted")}>Ofärdiga</Button>
             
-            <button onClick={toggleSortOrder}><span aria-label="sortera A-Ö/Ö-A" className="material-symbols-outlined text-black">sort</span></button>
+            <button onClick={toggleSortOrder}>
+                <span aria-label="sortera A-Ö/Ö-A" 
+                    className="material-symbols-outlined text-black cursor-pointer 
+                            hover:border-2 hover:border-black hover:rounded-md focus:outline-blue-300">
+                sort</span>
+            </button>
         </div>
     </>
 }
