@@ -24,3 +24,6 @@
 
 
 ### Ej klart
+- Skriv en readme.md 
+- Flytta input-styling till tailwind styling
+- Kolla ev på att tömma inputfältet efter att man har lagt till en task
