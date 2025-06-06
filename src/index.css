@@ -5,10 +5,3 @@
 :root {
   -webkit-font-smoothing: antialiased;
 }
-
-input[type="checkbox"] {
-  width: 1.5em;
-  height: 1.5em;
-  accent-color: green;
-  cursor: pointer;
-}
