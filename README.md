@@ -1,47 +1,62 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Tfc19Mhg)
-# Inlämningsuppgift Todo
+# Welcome to the Todo List App!
 
-I denna inlämningsuppgift kommer ni att skapa er egen todo-lista.
-Sidan skall visa ett antal punkter som skall göras. Dessa skall då komma upp på skärmen i form av en lista. När uppgiften är slutförd skall användaren kunna markera uppgiften som slutförd och uppgiften skall då tas bort från listan.
+Welcome to this simple yet powerful Todo List app — your go-to place for staying on top of tasks! This project is designed to help users create, manage, and complete their daily tasks in a clean and user-friendly interface.
 
-## Betyg G
+Users can check off tasks as they finish them, add new ones as they go, and even sort and manage completed items — all with persistent storage so your list stays the same even if you close the tab. Built with component-based architecture and a focus on interactive functionality, this app is a great introduction to state management in modern web development.
 
-- Skapa en hårdkodad lista med punkter att göra (hitta på egna punkter, dessa skall inte bara vara en text)
-- Presentera listan på skärmen, helst med lite kontroll. Detta betyder i en html-struktur t.ex. i en ul/li-lista
-- Implementera klickhändelse för att hantera borttagandet av en todo.
-- Todo markeras som klar på skärmen och markeras som klar i javascript-listan.
-- Ni behöver använda localStorage så att listan inte börjar om från början varje gång sidan används.
-- Ni behöver använda er av en komponent.
-- Ni behöver använda er av state med en lista med objekt.
+---
 
-## Betyg VG
+## Project Overview
 
-- Alla punkter under G
-- Kunna visa även klara händelser och klicka tillbaka den så att de blir oklara igen.
-- Skapa ett formulär som tillåter att en användare skapar nya todos efterhand.
-- Kunna sortera ordningen på dina todos.
-- Implementera ett valfritt grafiskt ramverk, t.ex. tailwind eller material ui.
-- Ni behöver ha minst tre komponenter.
-- Ni måste använda Lifting State Up.
+This project was developed as part of the **JavaScript Frameworks** course at **Medieinstitutet**. The goal was to build a fully functional Todo List web application while learning essential development concepts such as:
 
-## Allmänt
+- Component-based architecture in **React**
+- State handling and `localStorage`
+- Project structure and organization 
 
-Projektet ni har är ett vite-projekt. D.v.s. ni måste köra:
+---
 
-```shell
-npm i
-```
+## Features
 
-och
+- Hardcoded list of todo items
+- Todos displayed on screen using HTML structure 
+- Click event handling for marking todos as complete
+- Completed todos are both visually updated and removed from the list
+- Data persistence using `localStorage`
+- Ability to **toggle** completed todos back to incomplete
+- A **form** to let users add new todos
+- Ability to **sort** todos 
 
-```shell
-npm run dev 
-```
+---
 
-för att köra projektet.
+## Tech Stack
 
-- Det finns många sätt att lösa denna uppgift på. Om ni känner er osäkra på någonting, fråga hellre någon gång för mycket så att ni känner er säkra på vad ni utvecklar.
-- Ni får gärna ändra strukturen i projektet, detta är bara en grund.
-- Börja med att planera ert arbete, börja inte med Visual Studio Code, även om det är lockande.
-- Gör ert bästa att inte stressa. Lättare sagt än gjort, jag vet. Men ingen mår bättre av att stressa.
-- Ha roligt, skratta när det blir fel och fortsätt att vara nyfiken :)
+- HTML5  
+- Tailwind CSS (optional for VG)  
+- JavaScript
+- React
+- Vite  
+- LocalStorage  
+- Visual Studio Code  
+- Git & GitHub  
+
+---
+
+## Installation
+
+To get the project running locally:
+
+1. **Clone the repository**
+
+2. **Install dependencies**
+- npm install
+- Start the development server
+- npm run dev
+
+## This app was created by:
+
+Created by:
+[Agnes Wilson](https://github.com/agneswilson) 
+
+Instructor: 
+[Sebastian Tegel](https://github.com/sebastiantegel)
