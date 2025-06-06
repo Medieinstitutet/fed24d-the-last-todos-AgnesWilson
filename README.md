@@ -20,8 +20,7 @@ This project was developed as part of the **JavaScript Frameworks** course at **
 
 - Hardcoded list of todo items
 - Todos displayed on screen using HTML structure 
-- Click event handling for marking todos as complete
-- Completed todos are both visually updated and removed from the list
+- Completed todos are both visually updated and can be removed from the list via a delete button
 - Data persistence using `localStorage`
 - Ability to **toggle** completed todos back to incomplete
 - A **form** to let users add new todos
@@ -29,14 +28,21 @@ This project was developed as part of the **JavaScript Frameworks** course at **
 
 ---
 
+**Mobile version**
+![Mobile version](src/assets/screenshots/mobile.png)
+
+**Desktop version**
+![desktop version](src/assets/screenshots/desktop.png)
+
+---
+
 ## Tech Stack
 
 - HTML5  
-- Tailwind CSS (optional for VG)  
+- Tailwind
 - JavaScript
 - React
 - Vite  
-- LocalStorage  
 - Visual Studio Code  
 - Git & GitHub  
 
