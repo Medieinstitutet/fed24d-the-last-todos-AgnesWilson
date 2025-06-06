@@ -9,7 +9,7 @@ type todoProps = {
 export const PrintTodo = ({ printedTodo, toggleCompleted, removeTodo }: todoProps) => {
 
     return <>
-    <div className="bg-[url('/assets/notes.png')] bg-cover min-h-[700px] max-w-[400px] mx-auto">
+    <div className="bg-[url('/assets/notes.png')] bg-cover min-h-[700px] max-w-[400px] min-w-[400px] mx-auto">
         <ul className="py-24 px-10">
             {printedTodo.map((todo) => (
                 <li key={todo.id} className="list-none py-1.5 grid grid-cols-[1fr_1rem_1rem] items-center gap-x-10">
